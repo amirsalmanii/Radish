@@ -1,6 +1,6 @@
 <h1>Radish</h1>
 <img src="https://github.com/amirsalmanii/Radish/blob/master/radish-logo.jpg" width="350"/>
-<h3>Golang asynchronous task/job queue with goroutine and channels</h3>
+<h3>Golang Asynchronous Local task/job queue with goroutine and channels</h3>
 
 <h1>Getting started</h1>
 <h3>you can see examples at example folder</h3>
