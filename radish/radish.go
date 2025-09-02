@@ -6,11 +6,19 @@ import (
 )
 
 type Radish struct {
-	ListOfTasks []func()
+	listOfTasks []func()
+}
+
+func New() Radish {
+	return Radish{}
+}
+
+func (r *Radish) RegisterTask(t func()) {
+	r.listOfTasks = append(r.listOfTasks, t)
 }
 
 func (r *Radish) RunTaskQueue() {
-	for _, task := range r.ListOfTasks {
+	for _, task := range r.listOfTasks {
 		go task()
 	}
 }
