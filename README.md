@@ -17,4 +17,6 @@ go get github.com/amirsalmanii/Radish@latest
 <p>you can see examples at example folder</p>
 
 <p>very easy to use</p>
-<img src="https://github.com/amirsalmanii/Radish/blob/master/example/Screenshot%20from%202025-08-22%2019-14-41.png" width="800"/>
+<img src="https://github.com/amirsalmanii/Radish/blob/master/example/example.png" width="1300"/>
+
+
